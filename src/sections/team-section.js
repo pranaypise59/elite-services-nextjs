@@ -5,64 +5,31 @@ import SectionHeader from "components/section-header";
 import TeamCard from "components/team-card";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
-import Member1 from "assets/team/member-1.png";
-import Member2 from "assets/team/member-2.png";
-import Member3 from "assets/team/member-3.png";
-import Member4 from "assets/team/member-4.png";
-import Member5 from "assets/team/member-5.png";
-import Member6 from "assets/team/member-6.png";
+import Member1 from "assets/team/chetantemp.png";
+import Member2 from "assets/team/pranay.png";
+import Member3 from "assets/team/prajwal.png";
 
 const data = [
 	{
 		id: 1,
 		imgSrc: Member1,
-		altText: "Saimon Harmer",
-		title: "Saimon Harmer",
+		altText: "Chetan Banait",
+		title: "Chetan Banait",
 		designation: "CEO and Founder",
 		socialProfile: [
-			{
-				id: 1,
-				name: "facebook",
-				path: "#",
-				icon: <FaFacebookF />,
-			},
-			{
-				id: 2,
-				name: "twitter",
-				path: "#",
-				icon: <FaTwitter />,
-			},
-			{
-				id: 3,
-				name: "instagram",
-				path: "#",
-				icon: <FaInstagram />,
-			},
 		],
 	},
 	{
 		id: 2,
 		imgSrc: Member2,
-		altText: "Aaron Nunez",
-		title: "Aaron Nunez",
-		designation: "Founder",
+		altText: "Pranay Pise",
+		title: "Pranay Pise",
+		designation: "Web Developer & SEO Expert",
 		socialProfile: [
-			{
-				id: 1,
-				name: "facebook",
-				path: "#",
-				icon: <FaFacebookF />,
-			},
-			{
-				id: 2,
-				name: "twitter",
-				path: "#",
-				icon: <FaTwitter />,
-			},
 			{
 				id: 3,
 				name: "instagram",
-				path: "#",
+				path: "https://www.instagram.com/pranay.pise_/",
 				icon: <FaInstagram />,
 			},
 		],
@@ -70,111 +37,18 @@ const data = [
 	{
 		id: 3,
 		imgSrc: Member3,
-		altText: "Aaron Nunez",
-		title: "Aaron Nunez",
-		designation: "Web Designer",
+		altText: "Prajwal Vighne",
+		title: "Prajwal Vighne",
+		designation: "Marketing Lead",
 		socialProfile: [
-			{
-				id: 1,
-				name: "facebook",
-				path: "#",
-				icon: <FaFacebookF />,
-			},
-			{
-				id: 2,
-				name: "twitter",
-				path: "#",
-				icon: <FaTwitter />,
-			},
 			{
 				id: 3,
 				name: "instagram",
-				path: "#",
+				path: "https://www.instagram.com/drx._prajwal/",
 				icon: <FaInstagram />,
 			},
 		],
-	},
-	{
-		id: 4,
-		imgSrc: Member4,
-		altText: "Lina Jutila",
-		title: "Lina Jutila",
-		designation: "Web Developer",
-		socialProfile: [
-			{
-				id: 1,
-				name: "facebook",
-				path: "#",
-				icon: <FaFacebookF />,
-			},
-			{
-				id: 2,
-				name: "twitter",
-				path: "#",
-				icon: <FaTwitter />,
-			},
-			{
-				id: 3,
-				name: "instagram",
-				path: "#",
-				icon: <FaInstagram />,
-			},
-		],
-	},
-	{
-		id: 5,
-		imgSrc: Member5,
-		altText: "Saimon Harmer",
-		title: "Saimon Harmer",
-		designation: "CEO and Founder",
-		socialProfile: [
-			{
-				id: 1,
-				name: "facebook",
-				path: "#",
-				icon: <FaFacebookF />,
-			},
-			{
-				id: 2,
-				name: "twitter",
-				path: "#",
-				icon: <FaTwitter />,
-			},
-			{
-				id: 3,
-				name: "instagram",
-				path: "#",
-				icon: <FaInstagram />,
-			},
-		],
-	},
-	{
-		id: 6,
-		imgSrc: Member6,
-		altText: "Aaron Nunez",
-		title: "Aaron Nunez",
-		designation: "Web Designer",
-		socialProfile: [
-			{
-				id: 1,
-				name: "facebook",
-				path: "#",
-				icon: <FaFacebookF />,
-			},
-			{
-				id: 2,
-				name: "twitter",
-				path: "#",
-				icon: <FaTwitter />,
-			},
-			{
-				id: 3,
-				name: "instagram",
-				path: "#",
-				icon: <FaInstagram />,
-			},
-		],
-	},
+	}
 ];
 
 export default function TeamSection() {
@@ -183,7 +57,7 @@ export default function TeamSection() {
 			<Container>
 				<SectionHeader
 					slogan="our team"
-					title="The most qualified and talented individuals"
+					title="Meet Our Expert Team"
 				/>
 				<Grid sx={styles.grid}>
 					{data.map((item) => (

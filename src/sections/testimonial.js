@@ -5,50 +5,50 @@ import Rating from "components/rating";
 import ButtonGroup from "components/button-group";
 import Carousel from "react-multi-carousel";
 
-import Avatar1 from "assets/testimonial/avatar1.png";
-import Avatar2 from "assets/testimonial/avatar2.png";
-import Avatar3 from "assets/testimonial/avatar3.png";
-import Avatar4 from "assets/testimonial/avatar4.png";
+import Avatar1 from "assets/testimonial/ganesh.jpeg";
+import Avatar2 from "assets/testimonial/atul.jpeg";
+import Avatar3 from "assets/testimonial/rahu.jpeg";
+import Avatar4 from "assets/testimonial/rakesh.jpeg";
 
 const data = [
 	{
 		id: 1,
-		title: "Modern look & trending design",
+		title: "Efficient and Professional Service",
 		description:
-			"Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+			"I was pleasantly surprised by the prompt and efficient service I received from your team. They were extremely professional and took great care to ensure that my business cards were designed and printed to my exact specifications. I really appreciate the attention to detail and quick turnaround time!",
 		avatar: Avatar1,
-		name: "Denny Hilguston",
-		designation: "@denny.hil",
+		name: "Ganesh Kshirsagar",
+		designation: "Pharmacist",
 		review: 4,
 	},
 	{
 		id: 2,
-		title: "Design Quality & performance",
+		title: "Fantastic Design and Quality",
 		description:
-			"Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+			"The design options provided by your visiting card service were simply fantastic. I loved the creativity and unique designs that were available, and the final product exceeded my expectations in terms of quality. I'm already receiving compliments on my stylish business cards!",
 		avatar: Avatar2,
-		name: "Denny Hilguston",
-		designation: "@denny.hil",
+		name: "Atul More",
+		designation: "software developer",
 		review: 5,
 	},
 	{
 		id: 3,
-		title: "Layout and organized layers",
+		title: "Great Value for Money",
 		description:
-			"Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+			"I was impressed with the affordable pricing options offered by your visiting card service. The quality of the cards was outstanding, especially considering the competitive cost. Thank you for providing such great value for the price!",
 		avatar: Avatar3,
-		name: "Denny Hilguston",
-		designation: "@denny.hil",
+		name: "Rahul Pichadiya",
+		designation: "@rahul_pichadiya47",
 		review: 5,
 	},
 	{
 		id: 4,
-		title: "Modern look & trending design",
+		title: "Exceptional Customer Experience",
 		description:
-			"Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+			"Your customer service team went above and beyond to ensure that I had a seamless experience with your visiting card service. They were friendly, responsive, and addressed all my queries and concerns with a high level of professionalism. Thank you for making the process so easy and enjoyable!",
 		avatar: Avatar4,
-		name: "Denny Hilguston",
-		designation: "@denny.hil",
+		name: "Rakesh Rathi",
+		designation: "Businessman",
 		review: 4,
 	},
 ];

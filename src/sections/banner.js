@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
-import BannerImg from "assets/banner-thumb.png";
+import BannerImg from "assets/elitebranding.jpg";
 import ShapeLeft from "assets/shape-left.png";
 import ShapeRight from "assets/shape-right.png";
 
@@ -11,16 +11,15 @@ export default function Banner() {
 			<Container sx={styles.banner.container}>
 				<Box sx={styles.banner.contentBox}>
 					<Heading as="h1" variant="heroPrimary">
-						Top Quality Digital Products to Explore
+					Unlock the Power of First Impressions with Our Exquisite Visiting Cards!
 					</Heading>
 					<Text as="p" variant="heroSecondary">
-						Check out our website to find great software products and deals! If
-						you need a website or a web application, this is the place to go!
+					Elevate Your Professional Image and Leave a Lasting Mark on Every Introduction
 					</Text>
-					<Button variant="primary">Explore</Button>
+					<Button variant="primary">Make your Card</Button>
 				</Box>
 				<Box sx={styles.banner.imageBox}>
-					<Image src={BannerImg} alt="banner" />
+					<Image src={BannerImg} alt="banner" styles={{height:'20px'}}/>
 				</Box>
 			</Container>
 		</section>
@@ -78,7 +77,8 @@ const styles = {
 			mb: [0, null, -6, null, null, "-40px", null, -3],
 			img: {
 				position: "relative",
-				height: [245, "auto"],
+				height: [25, "auto"],
+				borderRadius: 10,
 			},
 		},
 	},

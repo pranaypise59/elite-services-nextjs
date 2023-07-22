@@ -11,10 +11,11 @@ export default function Logo({ src, ...rest }) {
 				display: "flex",
 				cursor: "pointer",
 				mr: 15,
+				textDecoration: "none",
 			}}
 			{...rest}
 		>
-			<Image src={src} alt="nextjs landing page logo" />
+			<div className="logo">Elite Sevices</div>
 		</Link>
 	);
 }

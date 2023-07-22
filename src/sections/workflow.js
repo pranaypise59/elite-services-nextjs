@@ -9,38 +9,35 @@ import ArrowEven from "assets/arrowEven.svg";
 
 const data = [
 	{
-		id: 1,
-		title: "Set disbursement Instructions",
-		text:
-			"Get your blood tests delivered at home collect a sample from the your blood tests.",
+	  id: 1,
+	  title: "Customer Requirements Discussion",
+	  text: "Personalize your visiting cards with our expert team.",
 	},
 	{
-		id: 2,
-		title: "Assembly retrieves funds from your account",
-		text:
-			"Get your blood tests delivered at home collect a sample from the your blood tests.",
+	  id: 2,
+	  title: "Processing & Designing",
+	  text: "Crafting professional and eye-catching designs just for you.",
 	},
 	{
-		id: 3,
-		title: "Assembly initiates disbursement",
-		text:
-			"Get your blood tests delivered at home collect a sample from the your blood tests.",
+	  id: 3,
+	  title: "Printing",
+	  text: "Vibrant colors and premium quality in every card we print.",
 	},
 	{
-		id: 4,
-		title: "Customer receives funds payment",
-		text:
-			"Get your blood tests delivered at home collect a sample from the your blood tests.",
+	  id: 4,
+	  title: "Delivery & Feedback",
+	  text: "Convenient delivery and exceptional service guaranteed.",
 	},
-];
+  ];
+  
 
 export default function WorkFlow() {
 	return (
 		<section sx={styles.workflow}>
 			<Container>
 				<SectionHeader
-					slogan="WHAT'S THE FUNCTION"
-					title="Meet the feature of our product"
+					slogan="How We Work"
+					title="Lets See How it Works"
 					isWhite={true}
 				/>
 				<Grid sx={styles.grid}>

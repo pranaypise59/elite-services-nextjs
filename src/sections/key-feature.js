@@ -10,46 +10,47 @@ import Support from "assets/key-feature/support.svg";
 
 const data = [
 	{
-		id: 1,
-		imgSrc: Performance,
-		altText: "Fast Performance",
-		title: "Fast Performance",
-		text:
-			"Get your blood tests delivered at home collect a sample from the your blood tests.",
+	  id: 1,
+	  imgSrc: Performance,
+	  altText: "Custom Card Designs",
+	  title: "Custom Card Designs",
+	  text:
+		"Stand out with unique and personalized card designs tailored to your brand. Our expert designers will create stunning visuals that leave a lasting impression.",
 	},
 	{
-		id: 2,
-		imgSrc: Partnership,
-		altText: "Partnership deal",
-		title: "Partnership deal",
-		text:
-			"Get your blood tests delivered at home collect a sample from the your blood tests.",
+	  id: 2,
+	  imgSrc: Subscription,
+	  altText: "Premium Materials",
+	  title: "Premium Materials",
+	  text:
+		"Experience the finest quality with our premium materials. Choose from glossy laminated cards with 250 gsm paper or 300 gsm paper for a luxurious touch.",
 	},
 	{
-		id: 3,
-		imgSrc: Subscription,
-		altText: "Pro Subscription",
-		title: "Pro Subscription",
-		text:
-			"Get your blood tests delivered at home collect a sample from the your blood tests.",
+	  id: 3,
+	  imgSrc: Partnership,
+	  altText: "Lamination Options",
+	  title: "Lamination Options",
+	  text:
+		"Elevate your cards with various lamination choices. Opt for matte lamination on 350 gsm paper or spot lamination on 400 gsm paper for a distinctive look.",
 	},
 	{
-		id: 4,
-		imgSrc: Support,
-		altText: "Customer Support",
-		title: "Customer Support",
-		text:
-			"Get your blood tests delivered at home collect a sample from the your blood tests.",
+	  id: 4,
+	  imgSrc: Support,
+	  altText: "Affordable Pricing",
+	  title: "Affordable Pricing",
+	  text:
+		"Get the best value for your money with our competitive prices. Our cards are of awesome quality, and we offer the cheapest rates in the market.",
 	},
-];
+  ];
+  
 
 export default function KeyFeature() {
 	return (
 		<section sx={{ variant: "section.keyFeature" }} id="feature">
 			<Container>
 				<SectionHeader
-					slogan="What's the function"
-					title="Meet the feature of our product"
+					slogan="OUR PRODUCT'S FEATURES"
+					title="Explore the functionality of our product"
 				/>
 				<Grid sx={styles.grid}>
 					{data.map((item) => (

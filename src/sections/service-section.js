@@ -29,18 +29,18 @@ const data = {
 		{
 			id: 1,
 			imgSrc: Smart,
-			altText: "Smart Features",
-			title: "Smart Features",
+			altText: "Elevate Your Networking Game",
+			title: "Elevate Your Networking Game",
 			text:
-				"Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+				"Unlock new opportunities with our meticulously crafted visiting cards that showcase your identity with style and impact.",
 		},
 		{
 			id: 2,
 			imgSrc: Secure,
-			altText: "Secure Contents",
-			title: "Secure Contents",
+			altText: "Stand Out from the Crowd",
+			title: "Stand Out from the Crowd",
 			text:
-				"Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+				"Leave a memorable impression on every introduction, as you connect with confidence and professionalism through our premium visiting cards.",
 		},
 	],
 };
@@ -58,7 +58,7 @@ export default function ServiceSection() {
 			<Container sx={styles.containerBox}>
 				<Box sx={styles.thumbnail}>
 					<Image src={ServiceThumb} alt="Thumbnail" />
-					<Button
+					{/* <Button
 						sx={styles.videoBtn}
 						onClick={handleClick}
 						aria-label="Play Button"
@@ -66,7 +66,7 @@ export default function ServiceSection() {
 						<span>
 							<IoIosPlay />
 						</span>
-					</Button>
+					</Button> */}
 					<Box sx={styles.shapeBox}>
 						<Image src={shapePattern} alt="shape" />
 					</Box>
@@ -90,12 +90,12 @@ export default function ServiceSection() {
 					</Grid>
 				</Box>
 			</Container>
-			<ModalVideo
-				channel="youtube"
+			{/* <ModalVideo
+				channel="custom"
 				isOpen={videoOpen}
 				videoId="iGBERMGMIvc"
 				onClose={() => setVideoOpen(false)}
-			/>
+			/> */}
 		</section>
 	);
 }

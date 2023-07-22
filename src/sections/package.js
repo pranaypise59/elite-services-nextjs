@@ -9,30 +9,63 @@ import SectionHeader from "components/section-header";
 import { IoIosCheckmarkCircle, IoIosCloseCircle } from "react-icons/io";
 
 const packages = {
-	monthly: [
+	glossy: [
 		{
 			id: 1,
-			name: "Free Plan",
-			description: "For Small teams or office",
+			name: "250 GSM - Both Side",
+			description: "For Small Businesses or office",
 			buttonText: "Start free trial",
-			priceWithUnit: "$0",
+			priceWithUnit: "Rs 850",
 			points: [
 				{
 					id: 1,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Drag & Drop Builder",
+					text: "Printing side: Both sides",
 					isAvailable: true,
 				},
 				{
 					id: 2,
 					icon: <IoIosCheckmarkCircle />,
-					text: "1,000's of Templates",
+					text: "Size: 3.5 inches x 2 inches",
 					isAvailable: true,
 				},
 				{
 					id: 3,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Blog Support Tools",
+					text: "Qty. 1000 Nos.",
+					isAvailable: true,
+				},
+				{
+					id: 4,
+					icon: <IoIosCloseCircle />,
+					text: "Free Delivery",
+					isAvailable: true,
+				},
+			],
+		},
+		{
+			id: 2,
+			name: "250 GSM - One Side",
+			description: "For Small Businesses or office",
+			buttonText: "Start free trial",
+			priceWithUnit: "Rs 700",
+			points: [
+				{
+					id: 1,
+					icon: <IoIosCheckmarkCircle />,
+					text: "Printing side: One Side",
+					isAvailable: true,
+				},
+				{
+					id: 2,
+					icon: <IoIosCheckmarkCircle />,
+					text: "Size: 3.5 inches x 2 inches",
+					isAvailable: true,
+				},
+				{
+					id: 3,
+					icon: <IoIosCheckmarkCircle />,
+					text: "Qty. 1000 Nos.",
 					isAvailable: true,
 				},
 				{
@@ -44,176 +77,239 @@ const packages = {
 			],
 		},
 		{
-			id: 2,
-			name: "Business king",
-			description: "For Enterprise business",
-			priceWithUnit: "$15",
+			id: 3,
+			name: "300 GSM - Both Side",
+			description: "For Businesses or office",
+			priceWithUnit: "Rs 1000",
 			buttonText: "Create account",
-			anotherOption: "Or Start 14 Days trial",
+			// anotherOption: "Or Start 14 Days trial",
 			points: [
 				{
 					id: 1,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Drag & Drop Builder",
+					text: "Printing side: One Side",
 					isAvailable: true,
 				},
 				{
 					id: 2,
 					icon: <IoIosCheckmarkCircle />,
-					text: "1,000's of Templates",
+					text: "Size: 3.5 inches x 2 inches",
 					isAvailable: true,
 				},
 				{
 					id: 3,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Blog Support Tools",
+					text: "Qty. 1000 Nos.",
 					isAvailable: true,
 				},
 				{
 					id: 4,
-					icon: <IoIosCheckmarkCircle />,
+					icon: <IoIosCloseCircle />,
 					text: "eCommerce Store ",
 					isAvailable: true,
 				},
 			],
 		},
 		{
-			id: 3,
-			header: "Suggested",
-			headerIcon: <IoIosCheckmarkCircle />,
-			name: "Pro Master",
-			description: "For pro level developers",
-			priceWithUnit: "$24",
+			id: 4,
+			name: "300 GSM - One Side",
+			description: "For Businesses or office",
+			priceWithUnit: "Rs 800",
 			buttonText: "Create account",
-			anotherOption: "Or Start 14 Days trial",
+			// anotherOption: "Or Start 14 Days trial",
 			points: [
 				{
 					id: 1,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Drag & Drop Builder",
+					text: "Printing side: One Side",
 					isAvailable: true,
 				},
 				{
 					id: 2,
 					icon: <IoIosCheckmarkCircle />,
-					text: "1,000's of Templates",
+					text: "Size: 3.5 inches x 2 inches",
 					isAvailable: true,
 				},
 				{
 					id: 3,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Blog Support Tools",
+					text: "Qty. 1000 Nos.",
 					isAvailable: true,
 				},
 				{
 					id: 4,
+					icon: <IoIosCloseCircle />,
+					text: "Free Delivery",
+					isAvailable: true,
+				},
+			],
+		}
+	],
+	matte: [
+		{
+			id: 1,
+			name: "350 GSM - Both Side",
+			description: "For Business & Personal Cards",
+			buttonText: "Start free trial",
+			priceWithUnit: "Rs -",
+			points: [
+				{
+					id: 1,
 					icon: <IoIosCheckmarkCircle />,
-					text: "eCommerce Store ",
+					text: "Printing side: Both sides",
+					isAvailable: true,
+				},
+				{
+					id: 2,
+					icon: <IoIosCheckmarkCircle />,
+					text: "Size: 3.5 inches x 2 inches",
+					isAvailable: true,
+				},
+				{
+					id: 3,
+					icon: <IoIosCheckmarkCircle />,
+					text: "Qty. 1000 Nos.",
+					isAvailable: true,
+				},
+				{
+					id: 4,
+					icon: <IoIosCloseCircle />,
+					text: "Free Delivery",
+					isAvailable: true,
+				},
+			],
+		},
+		{
+			id: 2,
+			name: "350 GSM - One Side",
+			description: "For Small Businesses or Personal Cards",
+			buttonText: "Start free trial",
+			priceWithUnit: "Rs -",
+			points: [
+				{
+					id: 1,
+					icon: <IoIosCheckmarkCircle />,
+					text: "Printing side: One Side",
+					isAvailable: true,
+				},
+				{
+					id: 2,
+					icon: <IoIosCheckmarkCircle />,
+					text: "Size: 3.5 inches x 2 inches",
+					isAvailable: true,
+				},
+				{
+					id: 3,
+					icon: <IoIosCheckmarkCircle />,
+					text: "Qty. 1000 Nos.",
+					isAvailable: true,
+				},
+				{
+					id: 4,
+					icon: <IoIosCloseCircle />,
+					text: "Free Delivery",
 					isAvailable: true,
 				},
 			],
 		},
 	],
-	annual: [
+	spot: [
 		{
 			id: 1,
-			name: "Free Plan",
-			description: "For Small teams or office",
+			name: "380 GSM - Both Side",
+			description: "For Small Businesses or office",
 			buttonText: "Start free trial",
-			priceWithUnit: "$0",
+			priceWithUnit: "Rs -",
 			points: [
 				{
 					id: 1,
 					icon: <IoIosCheckmarkCircle />,
-					text: "1,000's of Templates",
+					text: "Printing side: Both sides",
 					isAvailable: true,
 				},
 				{
 					id: 2,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Drag & Drop Builder",
+					text: "Size: 3.5 inches x 2 inches",
 					isAvailable: true,
 				},
 				{
 					id: 3,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Blog Support Tools",
+					text: "Qty. 1000 Nos.",
 					isAvailable: true,
 				},
 				{
 					id: 4,
 					icon: <IoIosCloseCircle />,
-					text: "eCommerce Store ",
+					text: "Free Delivery",
 					isAvailable: true,
 				},
 			],
 		},
 		{
 			id: 2,
-			name: "Business king",
-			description: "For Enterprise business",
-			priceWithUnit: "$25",
-			buttonText: "Create account",
-			anotherOption: "Or Start 10 Days trial",
+			name: "380 GSM - One Side",
+			description: "For Small Businesses or office",
+			buttonText: "Start free trial",
+			priceWithUnit: "Rs -",
 			points: [
 				{
 					id: 1,
 					icon: <IoIosCheckmarkCircle />,
-					text: "eCommerce Store",
+					text: "Printing side: One Side",
 					isAvailable: true,
 				},
 				{
 					id: 2,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Blog Support Tools",
+					text: "Size: 3.5 inches x 2 inches",
 					isAvailable: true,
 				},
 				{
 					id: 3,
 					icon: <IoIosCheckmarkCircle />,
-					text: "1,000's of Templates",
+					text: "Qty. 1000 Nos.",
 					isAvailable: true,
 				},
 				{
 					id: 4,
-					icon: <IoIosCheckmarkCircle />,
-					text: "Drag & Drop Builder ",
+					icon: <IoIosCloseCircle />,
+					text: "Free Delivery",
 					isAvailable: true,
 				},
 			],
 		},
 		{
 			id: 3,
-			header: "Suggested",
-			headerIcon: <IoIosCheckmarkCircle />,
-			name: "Pro Master",
-			description: "For pro level developers",
-			priceWithUnit: "$39",
+			name: "380 GSM - Spot + Matte",
+			description: "For Businesses or office",
+			priceWithUnit: "Rs -",
 			buttonText: "Create account",
-			anotherOption: "Or Start 10 Days trial",
+			// anotherOption: "Or Start 14 Days trial",
 			points: [
 				{
 					id: 1,
 					icon: <IoIosCheckmarkCircle />,
-					text: "eCommerce Store",
+					text: "Printing side: One Side",
 					isAvailable: true,
 				},
 				{
 					id: 2,
 					icon: <IoIosCheckmarkCircle />,
-					text: "Blog Support Tools",
+					text: "Size: 3.5 inches x 2 inches",
 					isAvailable: true,
 				},
 				{
 					id: 3,
 					icon: <IoIosCheckmarkCircle />,
-					text: "1,000's of Templates",
+					text: "Qty. 1000 Nos.",
 					isAvailable: true,
 				},
 				{
 					id: 4,
-					icon: <IoIosCheckmarkCircle />,
-					text: "Drag & Drop Builder ",
+					icon: <IoIosCloseCircle />,
+					text: "Free Delivery",
 					isAvailable: true,
 				},
 			],
@@ -225,7 +321,7 @@ const responsive = {
 	desktop: {
 		breakpoint: { max: 3000, min: 1024 },
 		items: 3,
-		draggable: false,
+		draggable: true,
 	},
 	tablet: {
 		breakpoint: { max: 1023, min: 640 },
@@ -240,21 +336,26 @@ const responsive = {
 };
 
 export default function Package() {
-	const { monthly, annual } = packages;
+	const { glossy, matte, spot } = packages;
 	const [state, setState] = useState({
-		active: "monthly",
-		pricingPlan: monthly,
+		active: "glossy",
+		pricingPlan: glossy,
 	});
 	const handlePricingPlan = (plan) => {
-		if (plan === "annual") {
+		if (plan === "glossy") {
 			setState({
-				active: "annual",
-				pricingPlan: annual,
+				active: "glossy",
+				pricingPlan: glossy,
+			});
+		} else if(plan === "matte"){
+			setState({
+				active: "matte",
+				pricingPlan: matte,
 			});
 		} else {
 			setState({
-				active: "monthly",
-				pricingPlan: monthly,
+				active: "spot",
+				pricingPlan: spot,
 			});
 		}
 	};
@@ -289,20 +390,28 @@ export default function Package() {
 				<Flex sx={styles.buttonGroup}>
 					<Box sx={styles.buttonGroupInner}>
 						<button
-							className={state.active === "monthly" ? "active" : ""}
+							className={state.active === "glossy" ? "active" : ""}
 							type="button"
 							aria-label="Monthly"
-							onClick={() => handlePricingPlan("monthly")}
+							onClick={() => handlePricingPlan("glossy")}
 						>
-							Monthly Plan
+							Gloss Lamination
 						</button>
 						<button
-							className={state.active === "annual" ? "active" : ""}
+							className={state.active === "matte" ? "active" : ""}
 							type="button"
 							aria-label="Annual"
-							onClick={() => handlePricingPlan("annual")}
+							onClick={() => handlePricingPlan("matte")}
 						>
-							Annual Plan
+							Matte Lamination
+						</button>
+						<button
+							className={state.active === "spot" ? "active" : ""}
+							type="button"
+							aria-label="Annual"
+							onClick={() => handlePricingPlan("spot")}
+						>
+							Spot Lamination
 						</button>
 					</Box>
 				</Flex>
